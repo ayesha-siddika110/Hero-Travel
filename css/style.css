@@ -442,3 +442,81 @@ margin-top: -5px;
 .popular-content>h2{
     text-align: left;
 }
+
+
+/* news latter section starts here */
+.news-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+
+}
+.new1box{
+    width: 35%;
+    height: 370px;
+    /* background-color: aquamarine; */
+    border: 1px solid rgb(255, 84, 0);
+    margin-right: 2rem;
+    border-radius: 16px;
+    padding: 60px 0 0 60px;
+    
+}
+.new2box{
+    border-radius: 16px;
+   
+    width: 65%;
+    background-image: url(../Images/Rectangle8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: brown;
+}
+
+.new1box>input{
+    width: 80%;
+    background-color: rgba(19, 19, 24, 0.05);
+    height: 30px;
+    margin-top: 20px ;
+    margin-left: 0;
+    font-size: 1rem;
+}
+hr{
+    margin-top: 30px;
+    width: 90%;
+    
+}
+.new1box>button{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+.new2box{
+    position: relative;
+}
+
+.travel-off-box{
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    height: 120px;
+    width: 280px;
+    background-color: rgb(255, 84, 0);
+    border-radius: 10px;
+    transform: rotate(-18deg);
+}
+.travelCom{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.saveUp{
+    margin-top: 7px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+/* news latter section ends here */
