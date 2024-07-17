@@ -22,6 +22,8 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 84, 0);
     border: none;
+    font-weight: 700;
+    font-size: 1rem;
 }
 h2{
     margin-top: 100px;
@@ -330,7 +332,8 @@ margin-top: -5px;
 
 /* Deal and discount */
 
-.deal1{
+.deal1, .deal2{
+    margin-top: 30px;
     background: url("../Images/Group39.png") no-repeat;
     width: 100%;
     height: 500px;
@@ -338,12 +341,14 @@ margin-top: -5px;
     justify-content: flex-end;
     align-items: flex-end;
 }
+
 .blur{
     
 }
 .deal-box{
     margin-bottom: 50px;
-    margin-right: 100px;
+    margin-right: 90px;
+    
     height: 400px;
     
     width: 36.18rem;
@@ -352,6 +357,7 @@ margin-top: -5px;
     backdrop-filter: blur(2px);
     border-radius: 16px;
 }
+
 .small-content{
     display: flex;
     justify-content: space-around;
@@ -399,4 +405,40 @@ margin-top: -5px;
 .book-now{
     margin-top: 30px;
     margin-left: 50px;
+}
+
+
+.deal2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url("../Images/Group40.png") no-repeat;
+
+}
+.deal2>.deal-box{
+    margin-top: 50px;
+    margin-left: 60px;
+    
+}
+
+.see-package{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Deal and diiscount end */
+
+/* parfect place starts*/
+
+.popular-video{
+    width: 50%;
+}
+.popular-video>video{
+    margin-top: 50px;
+    width: 35rem;
+    border-radius: 10px;
+}
+.popular-content>h2{
+    text-align: left;
 }
