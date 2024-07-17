@@ -82,6 +82,9 @@ h3{
     padding: 20px;
    
 }
+.hamburger{
+    display: none;
+}
     
 
 
@@ -470,6 +473,7 @@ margin-top: -5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: brown;
+    position: relative;
 }
 
 .new1box>input{
@@ -490,9 +494,7 @@ hr{
     width: 90%;
     border-radius: 10px;
 }
-.new2box{
-    position: relative;
-}
+
 
 .travel-off-box{
     position: absolute;
@@ -544,3 +546,167 @@ footer{
 .foot-hr{
     width: 60%;
 }
+
+/* responsive design starts here*/
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    .container-width{
+        max-width: 90%;
+        /* margin: auto; */
+    }
+    .nav-bar{
+        display: none;
+        
+        
+        
+    }
+    .hamburger{
+        display: block;
+        margin-right: 10%;
+    }
+    .logo>h3{
+        font-size: 2rem;
+    }
+    .logo>img{
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    form{
+      
+        flex-direction: column;    
+    }
+    .Explore-container-form{
+        
+        height: auto;
+    
+    }
+    form >input, select{
+        width: 200px;
+  
+        margin: 5px;
+    
+    }
+    form>input{
+
+    }
+    form>.find-now{
+        width: 200px;
+  
+        margin: 5px;
+    }
+    .Explore-Container{
+        height: 500px;
+    }
+    /* header area end */
+
+    /* popular star */
+    .popular-container{
+        flex-direction: column;
+    }
+    
+    
+    .popular-image, .popular-content{
+        width: 90%;
+    }
+    .popular-image{
+        
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+        
+
+    }
+    /* destination */
+
+    .row1, .row2, .row3{
+        grid-template-columns: 1fr;
+       
+    }
+    .why-choose-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* margin-top: 2.5rem; */
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .box{
+    
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .b3{
+        
+    left: 0%;
+    
+    }
+
+    /* deal */
+    .deal1{
+
+    }
+    
+    .deal1, .deal2, .deal{
+        margin-top: 40px;
+        background: url("../Images/Group39.png") no-repeat cover;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .deal-box{
+        margin-bottom: 10px;
+        margin-right: 0px;
+        width: 25rem;
+    }
+    .deal2{
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .deal2>.deal-box{
+        margin-top: 30px;
+        margin-left: 0px;
+        
+    }
+    .popular-video{
+        width: 100%;
+    }
+    .popular-video>video{
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    /* newslatter */
+    .news-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        margin-top: 50px;
+    
+    }
+    .new1box{
+        width: 90%;
+        height: 370px;
+        /* background-color: aquamarine; */
+        border: 1px solid rgb(255, 84, 0);
+        margin-right: 2rem;
+        border-radius: 16px;
+        padding: 60px 0 0 60px;
+        
+    }
+    .new2box>.travel-off-box{
+        display: none;
+
+    }
+    
+    
+    
+    
+}
+    
