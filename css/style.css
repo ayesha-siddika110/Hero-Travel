@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+
+
+}
+
+/* share styles starts here */
+.container-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn-primary{
+    padding: 15px 20px ;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 84, 0);
+    border: none;
+}
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+/* share styles end here */
+
+
+
+/* navigation area starts here */
+
+.nav-container{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* logo */
+.logo{
+    display: flex;
+}
+
+span{
+    color: rgb(255, 84, 0);
+}
+h3{
+    padding: 0 0 0 10px;
+    font-weight: 800;
+    font-size: 2.15rem;
+}
+
+/* nav */
+
+.nav-bar nav ul{
+    display: flex;
+}
+.nav-bar nav ul li{
+    list-style: none;
+    
+    
+}
+.nav-bar nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+   
+}
+    
+
+
+/* navigation area ends here */
+
+/* Explore-Container start */
+
+.Explore-Container{
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.247); */
+    background-image:
+    linear-gradient(
+        180deg, rgba(19, 19, 24, 0.7) 0%, rgba(19, 19, 24, 0) 100%
+        ),
+        url("../Images/Group13.png");
+        
+        background-size: cover;
+    /* background-blend-mode: overlay; */
+    border-radius: 20px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.Explore-container-form{
+    /* width: 600px; */
+    height: 70px;
+    background-color: rgba(240, 248, 255, 0.377);  
+    backdrop-filter: blur(3px);
+    margin-top: 30px; 
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: none;
+    
+    
+}
+form >input, select{
+    width: 160px;
+    cursor: pointer;
+
+}
+
+input{
+    /* margin-top: 10px; */
+
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+select{
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+.find-now{
+    width: 100px;
+    padding:10px 0;
+    border-radius: 5px;
+    background-color: rgb(255, 84, 0);
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+
+/* header are ends herer */
+
+
+
+/* popular section stars */
+.popular-container{
+    display: flex;
+    /* background-color: aqua; */
+    margin-top: 70px;
+    /* margin: auto; */
+    /* margin-left: 10px; */
+}
+.popular-content{
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+
+}
+
+.popular-content > h2, p, li{
+    margin-top: 20px;
+    /* margin */
+    
+}
+.popular-content>button{
+    margin-top: 20px;
+
+}
+.popular-content>h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+    
+}
+.popular-content>li{
+    margin-left: 20px;
+    
+}
+.popular-image{
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.popular-image>img{
+    width: 460px;
+}
+
+/* popular section end*/
